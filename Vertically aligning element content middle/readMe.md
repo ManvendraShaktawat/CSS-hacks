@@ -10,7 +10,7 @@
 
 ## WireFrame
 
-![Alt text](/wireframe.jpg)
+![Wireframe](/wireframe.jpg?raw=true)
 
 ## Main points
 
