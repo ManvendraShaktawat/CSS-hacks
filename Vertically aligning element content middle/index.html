@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div {
+			width: 500px;
+			height: 300px;
+			background: red;
+		}
+		div > div {
+			width: 100px;
+			height: 100px;
+			background: blue;
+			float: left;
+			text-align: center;
+			color: white;
+			font-size: 40px;
+			margin: 10px 0 0 10px;
+		}
+		div > div:before {
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+		}
+		div > div:nth-of-type(2n+1) {
+			clear: left;
+		}
+		div > div:nth-of-type(2n) {
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+	</div>
+</body>
+</html>
