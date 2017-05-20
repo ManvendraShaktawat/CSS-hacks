@@ -10,7 +10,7 @@
 
 ## WireFrame
 
-![Wireframe](/wireframe.jpg?raw=true)
+![Wireframe](/Vertically_aligning_element_content_middle/wireframe.jpg?raw=true)
 
 ## Main points
 
